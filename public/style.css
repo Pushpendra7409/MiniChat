@@ -1,0 +1,37 @@
+body {
+  margin-left: 20px;
+}
+
+.chat {
+  background-color: #66daef;
+  padding: 20px;
+  border-radius: 10px 100px / 120px;
+  display: inline-block;
+  width: 500px; /* Adjust width as needed */
+  margin: 10px 0;
+}
+
+.msg {
+  background-color: #16c3e9;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 16px;
+}
+
+.chat:nth-child(2n) {
+  background-color: pink;
+  float: right;
+  clear: both;
+}
+
+.chat:nth-child(2n) .msg {
+  background-color: rgb(235, 82, 107); /* Red color for every 2nd chat's message box */
+}
+
+.chat:nth-child(2n+1) {
+  
+  float: left;
+  clear: both;
+}
+
+
