@@ -34,4 +34,27 @@ body {
   clear: both;
 }
 
+button.edit {
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  width: 80px;
+  height: 25px;
+}
 
+button.delete {
+  background-color: red;
+  color: #fff;
+  border-radius: 5px;
+  width: 80px;
+  height: 25px;
+}
+
+button.new {
+  background: linear-gradient(to right,rgb(4, 4, 238),rgb(233, 37, 11) );
+  color: white;
+  border-radius: 10px;
+  padding: 12px;
+  width: 150px;
+
+}
